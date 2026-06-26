@@ -5,6 +5,7 @@ app = FastAPI()
 @app.get("/hello")
 def hello():
     return {"message": "クラウドでPythonが動いています"}
+
 from fastapi import FastAPI, HTTPException
 import httpx
 
