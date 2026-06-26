@@ -82,3 +82,4 @@ async def simple_distortion(race_id: str, before: int, after: int):
         "after_minutes": after,
         "horses": result
     }
+
